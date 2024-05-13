@@ -1,0 +1,33 @@
+
+
+.table {
+    width: 780px;
+    margin: 20px auto;
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    outline: 3px solid #2eb4dd;
+    background: #fff;
+    text-align: center;
+}
+
+.table th {
+    font-weight: bold;
+    padding: 7px;
+    background: #2eb4dd;
+    border: none;
+
+    font-size: 15px;
+    border-top: 3px solid #fff;
+}
+
+.table td {
+    padding: 7px;
+    border: none;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #ecf5fc;
+}
